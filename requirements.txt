@@ -1,16 +1,17 @@
 setuptools
 serial
 django
-django-allauth
+django-allauth==0.61.1
 django-crispy-forms
 django-bootstrap5
+django-tailwind[reload]
 django-cors-headers
 django-location-field
 django-address
 django-phonenumber-field[phonenumbers]
 django-rest-framework
 djangorestframework-simplejwt[crypto]
-dj-rest-auth
+dj-rest-auth==7.0.0
 dlib
 flet
 flet_cli
@@ -20,6 +21,7 @@ opencv-python-headless
 PySide6
 folium
 psycopg2-binary
+mysqlclient
 pymongo
 fastapi[uvicorn]
 pillow
