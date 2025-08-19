@@ -20,7 +20,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
 RUN apt-get install -y '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-util1 \ 
     libgl1-mesa-glx libegl1-mesa libgles2-mesa libdbus-1-3 libinput-dev libxcb-xinerama0 libxcb-xinput0\ 
     libxcb-image0 libxcb-keysyms1 libxcb-icccm4 libxcb-cursor0 libxcb-render-util0 \ 
-    libxext6 libxrandr2 libqt5widgets5 libqt5gui5 libqt5core5a x11-apps mesa-utils
+    libxext6 libxrandr2 libqt5widgets5 libqt5gui5 libqt5core5a
 
 # Install Flutter dependencies    
 RUN apt-get install -y libmpv-dev libmpv2
