@@ -14,7 +14,6 @@ djangorestframework-simplejwt[crypto]
 dj-rest-auth==7.0.0
 dlib
 flet[all]
-fletx
 fletxr
 flet_cli
 flet_desktop
