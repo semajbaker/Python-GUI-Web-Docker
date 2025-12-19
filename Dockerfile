@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.12.0
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -37,8 +37,8 @@ COPY requirements.txt  /home/james/
 
 # Install Python dependencies
 RUN pip install --upgrade pip
+RUN pip install git+https://github.com/AllDotPy/FletX.git@master#egg=FletXr
 RUN pip install -r requirements.txt
-
 # Add local bin to PATH for user 'james'
 ENV PATH="/home/james/.local/bin:$PATH"
 

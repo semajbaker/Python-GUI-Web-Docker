@@ -13,11 +13,8 @@ django-rest-framework
 djangorestframework-simplejwt[crypto]
 dj-rest-auth==7.0.0
 dlib
-flet[all]
-fletxr
-flet_cli
-flet_desktop
 face_recognition
+flet[all]
 opencv-python-headless
 PySide6
 folium
@@ -34,4 +31,7 @@ jupyterlab
 fpdf
 imutils
 geopy
+whitenoise
+dotenv
+gunicorn
 
